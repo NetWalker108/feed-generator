@@ -12,7 +12,7 @@ const run = async () => {
 
   // YOUR bluesky password, or preferably an App Password (found in your client settings)
   // Ex: abcd-1234-efgh-5678
-  const password = 'vzxe-e7ti-sd5m-zojo'
+  const password = '733h-swws-e3rx-k5u5'
 
   // A short name for the record that will show in urls
   // Lowercase with no spaces.
