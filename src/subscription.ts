@@ -20,7 +20,7 @@ const whiteList = ['Crypto', 'NSFW', 'Cat'];
 const whiteList1 = whiteList.map((val) => {
   return val.toLowerCase();
 });
-const banValues = ['twitter', 'pepe'];
+const banValues = ['twitter', 'pepe', 'giveaway', 'airdrop'];
 const banVal1 = banValues.map((val) => {
   return val.toLowerCase();
 });

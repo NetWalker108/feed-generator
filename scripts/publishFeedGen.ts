@@ -12,7 +12,7 @@ const run = async () => {
 
   // YOUR bluesky password, or preferably an App Password (found in your client settings)
   // Ex: abcd-1234-efgh-5678
-  const password = '733h-swws-e3rx-k5u5'
+  const password = process.env.FEED_PASSWORD!
 
   // A short name for the record that will show in urls
   // Lowercase with no spaces.
@@ -25,7 +25,7 @@ const run = async () => {
 
   // (Optional) A description of your feed
   // Ex: Top trending content from the whole network
-  const description = 'A feed that brings everything about Crypto, Coochie, Cats. But no mentions of Twitter'
+  const description = "A feed that brings you everything about Crypto, Coochie, Cats. Don't worry, it avoids giveaway posts and the usual crypto spam"
 
   // (Optional) The path to an image to be used as your feed's avatar
   // Ex: ~/path/to/avatar.jpeg
