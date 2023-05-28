@@ -8,7 +8,7 @@ const run = async () => {
 
   // YOUR bluesky handle
   // Ex: user.bsky.social
-  const handle = 'emmanuel.bsky.nyc'
+  const handle = process.env.FEED_USERNAME!
 
   // YOUR bluesky password, or preferably an App Password (found in your client settings)
   // Ex: abcd-1234-efgh-5678
@@ -21,7 +21,7 @@ const run = async () => {
 
   // A display name for your feed
   // Ex: What's Hot
-  const displayName = 'Coochie N Cats (WIP)'
+  const displayName = 'Coochie N Cats (WIP2)'
 
   // (Optional) A description of your feed
   // Ex: Top trending content from the whole network
