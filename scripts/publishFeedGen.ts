@@ -17,11 +17,11 @@ const run = async () => {
   // A short name for the record that will show in urls
   // Lowercase with no spaces.
   // Ex: whats-hot
-  const recordName = 'ccc'
+  const recordName = 'ccc2'
 
   // A display name for your feed
   // Ex: What's Hot
-  const displayName = 'Coochie N Cats (WIP)'
+  const displayName = 'Coochie N Cats 2 (WIP)'
 
   // (Optional) A description of your feed
   // Ex: Top trending content from the whole network
