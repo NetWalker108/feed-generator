@@ -16,7 +16,7 @@ export class FirehoseSubscription extends FirehoseSubscriptionBase {
       console.log(post.record.text)
     }
     
-const whiteList = ['Apple', 'Vision Pro', 'Apple Vision Pro', 'EyeSight', 'OpticID', 'Optic', 'Spatial', '3D Camera', 'FaceTime', 'Head Band', 'Light Seal', 'visionOS', 'R1', 'Digital Crown','Spatial Audio','micro-OLED','M2', 'Reality Composer Pro','RealityKit', 'ARKit', '$3500', '$3499.99', '$3,499.99'];
+const whiteList = ['Apple', 'Vision Pro', 'Apple Vision Pro', 'EyeSight', 'OpticID', 'Optic', 'Spatial', '3D Camera', 'FaceTime', 'Head Band', 'Light Seal', 'visionOS', 'R1', 'Digital Crown','Spatial Audio','micro-OLED','M2', 'Reality Composer Pro','RealityKit', 'ARKit', '$3500', '$3499.99', '$3,499.99', '#WWDC2023', '#WWDC', '#WWDC23', 'WWDC'];
 const whiteList1 = whiteList.map((val) => {
   return val.toLowerCase();
 });
