@@ -20,7 +20,7 @@ const whiteList = ['Apple', 'Vision Pro', 'Apple Vision Pro', 'EyeSight', 'Optic
 const whiteList1 = whiteList.map((val) => {
   return val.toLowerCase();
 });
-const banValues = ['twitter', 'pepe', 'giveaway', 'airdrop'];
+const banValues = ['stupid', 'flop', 'late-to-the-party', 'fail', 'dumb'];
 const banVal1 = banValues.map((val) => {
   return val.toLowerCase();
 });
