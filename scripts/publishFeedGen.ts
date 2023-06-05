@@ -17,19 +17,19 @@ const run = async () => {
   // A short name for the record that will show in urls
   // Lowercase with no spaces.
   // Ex: whats-hot
-  const recordName = 'ccc2'
+  const recordName = 'wwdc23avp'
 
   // A display name for your feed
   // Ex: What's Hot
-  const displayName = 'Coochie N Cats 2 (WIP)'
+  const displayName = 'Apple Vision Pro(WWDC 2023)'
 
   // (Optional) A description of your feed
   // Ex: Top trending content from the whole network
-  const description = "A feed that brings you everything about Crypto, Coochie, Cats. Don't worry, it avoids giveaway posts and the usual crypto spam"
+  const description = "We just saw the WWDC 2023 streama and the unveiling of the Apple Vision Pro, Apple's first Spatial Computer. This feed is built to connect you to the active conversations surrounding the Apple Vision Pro"
 
   // (Optional) The path to an image to be used as your feed's avatar
   // Ex: ~/path/to/avatar.jpeg
-  const avatar: string = 'scripts/avi.jpeg'
+  const avatar: string = 'scripts/avp.jpg.webp'
 
   // -------------------------------------
   // NO NEED TO TOUCH ANYTHING BELOW HERE
